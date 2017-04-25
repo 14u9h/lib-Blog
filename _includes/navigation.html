@@ -11,9 +11,9 @@
         <a href="{{ site.url }}/links/">链接</a>
         <a class="nav_a1" href="{{ site.url }}/about/">关于</a>
     </div>
-    <div class="nav_rss"><a href="{{ site.url }}/sitemap.xml" style="display:none;">SITEMAP</a><a href="{{ site.url }}/feed.xml" target="_blank">订阅</a></div>
+    <div><a href="{{ site.url }}/sitemap.xml" style="display:none;">SITEMAP</a><a href="{{ site.url }}/feed.xml" target="_blank">订阅</a></div>
     </div>
-    <span class="STYLE1" href="http://fnull.in">Fnull-index </span>
+    <span class="STYLE1" href="http://fnull.in">{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %} </span>
 </td>
   </tr>
   <tr>
