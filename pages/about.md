@@ -1,28 +1,12 @@
 ---
 layout: page
-title: Zhuang Ma
-description: Zhuang Ma的个人简介。
-keywords: Zhuang Ma, 马壮
+title: 14u9h
+description: 关于我。
+keywords: laugh,14u9h
 permalink: /about/
 ---
 
-**Software Engineer at [Sogou, Inc.](http://www.sogou.com)**
-
-Beijing City, China \| Computer Software
-  
-*Education:* Wuhan Institute of Technology
-
-scholar, CS/IT
-
-*Contact:* `print '%s@%s' % ('ChumpMa', 'gmail.com')  #via Python`
-
-*Social:*  [github](http://github.com/mzlogin) \| [linkedin](http://www.linkedin.com/in/mazhuang) \| [weibo](http://weibo.com/mzlogin) \| [douban](http://www.douban.com/people/freedim/) \| [blog](http://mazhuang.org)
-    
-```c++
-#include <iostream>
-int main()
-{
-	std::cout << "Hello, friends!" << std::endl;
-	return 0;
-}
-```
+<h3>id:laugh</h3>
+<h3>爱好：女</h3>
+<h3>现实很残酷，也很酷</h3>
+<h4>那啥，别看，你再看我也不可能喜欢你的</h4>
