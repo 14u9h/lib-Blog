@@ -4,8 +4,8 @@
 baseurl: 
 url: https://14u9h.github.io/lib-Blog/
 date_format: "ordinal"
-title: jekyll-theme-solid
-author: Zhuang Ma 
+title: 14u9h
+author: 14u9h
 
 # ---------------- #
 #   RSS / Email    #
@@ -30,10 +30,5 @@ collections:
     wiki:
         output: true
         permalink: /wiki/:path/
-
-# ---------------- #
-#      Comments    #
-# ---------------- #
-netease_gentie_key: 560ed243b708465d82d5a0a5f3b83da1
 
 #主题推倒重做#
