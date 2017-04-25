@@ -1,9 +1,17 @@
 {% include header.html %}
-<div class="container">
+
     {% include navigation.html %}
-    <div class="main">
-        <h2> {% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %} </h2>
-        {{ content }}
-    </div>
-</div>
+                
+        <tr>
+    <td height="367" align="left" valign="top">
+     <ul>
+　{% for post in site.posts %}
+　　　<li>{{ page.date }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　{% endfor %}
+</ul>
+</td>
+    </tr>
+        
+        
+
 {% include footer.html %}
