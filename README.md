@@ -1,4 +1,3 @@
-jekyll-theme-solid
+my blog & lib
 =================
 
-主题更改ing...
