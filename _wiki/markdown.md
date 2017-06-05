@@ -21,14 +21,14 @@ keywords: Markdown
 ### 超链接
 
 ```
-[码志](http://mazhuang.org)
+[百度](http://www.baidu.com)
 
-<http://mazhuang.org>
+<https://www.baidu.com>
 ```
 
-[码志](http://mazhuang.org)  
+[谷歌](https://www.google.com)  
 
-<http://mazhuang.org>
+<https://www.google.com>
 
 ### 列表
 
