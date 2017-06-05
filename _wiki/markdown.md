@@ -175,6 +175,5 @@ print 'Hello, World!'
 
 ### Emoji
 
-:camel:
+:trollface:
 :blush:
-:smile:
