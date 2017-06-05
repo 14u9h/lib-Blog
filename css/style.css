@@ -3,12 +3,6 @@ html, body {
     height:100%;
     font: 400 16px/1.62 Georgia, "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
     }
-.content {
-	height: 100%;
-}
-.whole {
-	height: 100%;
-}
 #scroll {
     position:fixed;
     top:300px;
