@@ -10,13 +10,13 @@ keywords: 社会工程学,社工,Social Engineering
 
 * [简介](#简介)
 * [经典技术](#经典技术)
-* [直接索取（Direct Approach）](#直接索取（Direct Approach）)
+* [直接索取（Direct Approach）](#直接索取)
 * [个人冒充](#个人冒充)
-* [反向社会工程（Reverse Social Engineering）](#反向社会工程（Reverse Social Engineering）)
+* [反向社会工程（Reverse Social Engineering）](#反向社会工程)
 * [邮件利用](#邮件利用)
 * [演进技术](#演进技术)
-* [	钓鱼技术（Phishing）](#	钓鱼技术（Phishing）)
-* [域欺骗技术（Pharming）](#域欺骗技术（Pharming）)
+* [	钓鱼技术（Phishing）](#	钓鱼技术)
+* [域欺骗技术（Pharming）](#域欺骗技术)
 * [非交互式技术](#非交互式技术)
 * [多学科交叉技术](#多学科交叉技术)
 * [多技术配合使用](#多技术配合使用)
@@ -27,9 +27,9 @@ keywords: 社会工程学,社工,Social Engineering
 
 历史上，社会工程学是隶属于社会学，不过其影响他人心理的效果引起了计算机安全专家的注意。
 
-### 经典技术
+## 经典技术
 
-#### 直接索取（Direct Approach）
+#### 直接索取
 
 直接向目标人员索取所需信息
 
@@ -39,7 +39,7 @@ keywords: 社会工程学,社工,Social Engineering
 #求助职员冒充 — 假装是需要帮助的职员，请求工作人员帮助解决网络问题，借以获得所需信息
 #技术支持冒充 — 假装是正在处理网络问题的技术支持人员，要求获得所需信息以解决问题
 
-#### 反向社会工程（Reverse Social Engineering）
+#### 反向社会工程
 
 定义： 迫使目标人员反过来向攻击者求助的手段
 
@@ -54,9 +54,9 @@ keywords: 社会工程学,社工,Social Engineering
 
 群发诱导：欺骗接收者将邮件群发给目标所有朋友和同事
 
-### 演进技术
+## 演进技术
 
-#### 钓鱼技术（Phishing）
+#### 钓鱼技术
 
 模仿合法站点的非法站点
 
@@ -64,7 +64,7 @@ keywords: 社会工程学,社工,Social Engineering
 
 技术： 利用欺骗性的电子邮件或者跨站攻击诱导用户前往伪装站点
 
-#### 域欺骗技术（Pharming）
+#### 域欺骗技术
 
 定义： 域欺骗是钓鱼技术加 DNS 缓冲区毒害技术（DNS caching poisoning）
 
@@ -98,4 +98,4 @@ keywords: 社会工程学,社工,Social Engineering
 
 本文摘自：上海市公安局网络安全顾问'''彭一楠'''一则 PPT。如有侵权，请联系本站管理员转告与我。
 
-[https://github.com/red000/silic_wiki/blob/master/Social-Engineering/%E5%BD%AD%E4%B8%80%E6%A5%A0-2006-.ppt PPT下载]
+[PPT下载](https://github.com/red000/silic_wiki/blob/master/Social-Engineering/%E5%BD%AD%E4%B8%80%E6%A5%A0-2006-.ppt）
