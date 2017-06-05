@@ -1,4 +1,4 @@
-转自：[Github emoji]<https://github.com/CodyGuo/Go-Cody/blob/master/github/README/emoji.md>
+转自：[Github emoji](https://github.com/CodyGuo/Go-Cody/blob/master/github/README/emoji.md)
 
 Emoji表情
 ======
