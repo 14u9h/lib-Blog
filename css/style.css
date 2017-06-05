@@ -5,7 +5,11 @@ html, body {
     }
 .content {
 	height: 100%;
-	}
+}
+.whole {
+	text-align:center
+	height: 100%;
+}
 #scroll {
     position:fixed;
     top:300px;
