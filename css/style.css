@@ -38,11 +38,3 @@ a:link,a:visited{
     border-radius: 64px;
     box-shadow: 0 2px 4px rgba(99, 99, 99, 0.5);
     }
-/*.bar {
-	position:fixed;
-	position:absolute;
-	bottom:0px;
-	bottom:10px;
-	margin-top:expression(this.style.pixelHeight+document.documentElement.scrollTop)
-	}
-*/
