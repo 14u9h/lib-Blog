@@ -4,11 +4,9 @@ html, body {
     font: 400 16px/1.62 Georgia, "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
     }
 .content {
-	text-align:center;
 	height: 100%;
 }
 .whole {
-	text-align:center;
 	height: 100%;
 }
 #scroll {
