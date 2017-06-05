@@ -161,9 +161,11 @@ print 'Hello, World!'
 
 ```
 ![本站favicon](/favicon.ico)
+
+显示与代码有出入
 ```
 
-![本站favicon](/favicon.ico)
+![本站favicon]({{ site.url }}favicon.ico)
 
 ### 锚点
 
