@@ -1,0 +1,11 @@
+{% include header.html %}            
+        <tr>
+    <td height="367" align="left" valign="top">
+     <ul>
+　{% for post in site.posts %}
+　　　<li>{{ page.date }} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+　{% endfor %}
+</ul>
+</td>
+    </tr>
+{% include footer02.html %}
