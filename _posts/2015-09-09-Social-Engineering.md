@@ -98,4 +98,4 @@ keywords: 社会工程学,社工,Social Engineering
 
 本文摘自：上海市公安局网络安全顾问'''彭一楠'''一则 PPT。如有侵权，请联系本站管理员转告与我。
 
-[PPT下载](https://github.com/red000/silic_wiki/blob/master/Social-Engineering/%E5%BD%AD%E4%B8%80%E6%A5%A0-2006-.ppt）
+[PPT下载]<https://github.com/red000/silic_wiki/blob/master/Social-Engineering/%E5%BD%AD%E4%B8%80%E6%A5%A0-2006-.ppt>
