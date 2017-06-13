@@ -7,6 +7,6 @@ permalink: /links/
 ---
 <p>有朋自远方来，不亦乐乎。(っ*´Д`)っ</p>
 <ul>
-<li><a href="#">测试链接</a></li>
-<li><a href="#">测试链接2</a></li>
+<li><a href="http://fjhack.me/">枫叶的家</a></li>
+<li><a href="http://blog.rookiehacker.org/">RookieHacker</a></li>
 </ul>
