@@ -1,3 +1,11 @@
+---
+layout: post
+title: Nmap使用文档翻译
+categories: 神兵利器
+description: Nmap使用文档翻译
+keywords: Nmap,Nmap使用文档
+---
+
 ### Nmap 7.12SVN ( https://nmap.org )
 
 #### 命令格式: nmap [Scan Type(s)] [Options] {target specification}
