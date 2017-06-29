@@ -30,5 +30,8 @@ collections:
     wiki:
         output: true
         permalink: /wiki/:path/
+    xiaoming:
+        output: true
+        permalink: /xiaoming/:path/
 
 #主题推倒重做#
