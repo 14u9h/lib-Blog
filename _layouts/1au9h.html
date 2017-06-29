@@ -8,12 +8,18 @@
         <title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %} </title>
         <link rel="shortcut icon" href="{{ site.url }}/favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="{{ site.url }}/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="{{ site.url }}/css/style.css" type="text/css" />       
+        <link rel="stylesheet" href="{{ site.url }}/css/style.css" type="text/css" />    
+    <script type="text/javascript">  
+        function change(a)  
+        {  
+            a.href="#";  
+        }  
+    </script>   
     </head>
     <body>
         <div class="laugh">
             <div class="lhead">
-                <a href="{{ site.url }}/xiaoming" onclick="change();return false">
+                <a href="{{ site.url }}/xiaoming" onclick="change(this)">
                     <img class="avatar" src="{{ site.url }}/img/avatar.png" alt="" width="180" height="128"></a>
             </div>
             <p>#哪有什么纯粹，都是江湖而已</p>
