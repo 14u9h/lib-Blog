@@ -16,7 +16,7 @@ keywords: Sqlmap,Sqlmap使用文档
   --version             Show program's version number and exit
   -v VERBOSE            Verbosity level: 0-6 (default 1)
 
-  #### Target:
+#### Target:
   
     At least one of these options has to be provided to define the
     target(s)
@@ -30,7 +30,7 @@ keywords: Sqlmap,Sqlmap使用文档
     -g GOOGLEDORK       Process Google dork results as target URLs
     -c CONFIGFILE       Load options from a configuration INI file
 
-  #### Request:
+#### Request:
   
     These options can be used to specify how to connect to the target URL
 
@@ -75,7 +75,7 @@ keywords: Sqlmap,Sqlmap使用文档
     --eval=EVALCODE     Evaluate provided Python code before the request (e.g.
                         "import hashlib;id2=hashlib.md5(id).hexdigest()")
 
-  #### Optimization:
+#### Optimization:
      
      These options can be used to optimize the performance of sqlmap
 
@@ -85,7 +85,7 @@ keywords: Sqlmap,Sqlmap使用文档
     --null-connection   Retrieve page length without actual HTTP response body
     --threads=THREADS   Max number of concurrent HTTP(s) requests (default 1)
 
-  #### Injection:
+#### Injection:
    
    These options can be used to specify which parameters to test for,
     provide custom injection payloads and optional tampering scripts
@@ -106,7 +106,7 @@ keywords: Sqlmap,Sqlmap使用文档
     --suffix=SUFFIX     Injection payload suffix string
     --tamper=TAMPER     Use given script(s) for tampering injection data
 
-  #### Detection:
+#### Detection:
   
     These options can be used to customize the detection phase
 
@@ -119,7 +119,7 @@ keywords: Sqlmap,Sqlmap使用文档
     --text-only         Compare pages based only on the textual content
     --titles            Compare pages based only on their titles
 
-  #### Techniques: 
+#### Techniques: 
   
     These options can be used to tweak testing of specific SQL injection
     techniques
@@ -132,10 +132,10 @@ keywords: Sqlmap,Sqlmap使用文档
     --dns-domain=DNS..  Domain name used for DNS exfiltration attack
     --second-order=S..  Resulting page URL searched for second-order response
 
- #### Fingerprint:
+#### Fingerprint:
     -f, --fingerprint   Perform an extensive DBMS version fingerprint
 
-  #### Enumeration:
+#### Enumeration:
   
     These options can be used to enumerate the back-end database
     management system information, structure and data contained in the
@@ -176,21 +176,21 @@ keywords: Sqlmap,Sqlmap使用文档
     --sql-shell         Prompt for an interactive SQL shell
     --sql-file=SQLFILE  Execute SQL statements from given file(s)
 
-  #### Brute force:
+#### Brute force:
   
     These options can be used to run brute force checks
 
     --common-tables     Check existence of common tables
     --common-columns    Check existence of common columns
 
-  #### User-defined function injection:
+#### User-defined function injection:
   
     These options can be used to create custom user-defined functions
 
     --udf-inject        Inject custom user-defined functions
     --shared-lib=SHLIB  Local path of the shared library
 
-  #### File system access:
+#### File system access:
   
     These options can be used to access the back-end database management
     system underlying file system
@@ -199,7 +199,7 @@ keywords: Sqlmap,Sqlmap使用文档
     --file-write=WFILE  Write a local file on the back-end DBMS file system
     --file-dest=DFILE   Back-end DBMS absolute filepath to write to
 
-  #### Operating system access:
+#### Operating system access:
   
     These options can be used to access the back-end database management
     system underlying operating system
@@ -213,7 +213,7 @@ keywords: Sqlmap,Sqlmap使用文档
     --msf-path=MSFPATH  Local path where Metasploit Framework is installed
     --tmp-path=TMPPATH  Remote absolute path of temporary files directory
 
-  #### Windows registry access:
+#### Windows registry access:
   
     These options can be used to access the back-end database management
     system Windows registry
@@ -226,7 +226,7 @@ keywords: Sqlmap,Sqlmap使用文档
     --reg-data=REGDATA  Windows registry key value data
     --reg-type=REGTYPE  Windows registry key value type
 
-  #### General:
+#### General:
   
     These options can be used to set some general working parameters
 
@@ -252,7 +252,7 @@ keywords: Sqlmap,Sqlmap使用文档
     --test-skip=TEST..  Skip tests by payloads and/or titles (e.g. BENCHMARK)
     --update            Update sqlmap
 
-  #### Miscellaneous:
+#### Miscellaneous:
   
     -z MNEMONICS        Use short mnemonics (e.g. "flu,bat,ban,tec=EU")
     --alert=ALERT       Run host OS command(s) when SQL injection is found
