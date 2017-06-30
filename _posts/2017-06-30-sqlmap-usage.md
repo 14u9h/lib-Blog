@@ -30,7 +30,8 @@ keywords: Sqlmap,Sqlmap使用文档
 
 #### Request:
   
-    These options can be used to specify how to connect to the target URL
+These options can be used to specify how to connect to the target URL
+
 * --method=METHOD     Force usage of given HTTP method (e.g. PUT)
 * --data=DATA         Data string to be sent through POST
 * --param-del=PARA..  Character used for splitting parameter values
@@ -74,7 +75,8 @@ keywords: Sqlmap,Sqlmap使用文档
 
 #### Optimization:
      
-     These options can be used to optimize the performance of sqlmap
+These options can be used to optimize the performance of sqlmap
+
 * -o                  Turn on all optimization switches
 * --predict-output    Predict common queries output
 * --keep-alive        Use persistent HTTP(s) connections
@@ -83,8 +85,9 @@ keywords: Sqlmap,Sqlmap使用文档
 
 #### Injection:
    
-   These options can be used to specify which parameters to test for,
-    provide custom injection payloads and optional tampering scripts
+These options can be used to specify which parameters to test for,
+provide custom injection payloads and optional tampering scripts
+
 * -p TESTPARAMETER    Testable parameter(s)
 * --skip=SKIP         Skip testing for given parameter(s)
 * --skip-static       Skip testing parameters that not appear to be dynamic
@@ -103,7 +106,7 @@ keywords: Sqlmap,Sqlmap使用文档
 
 #### Detection:
   
-    These options can be used to customize the detection phase
+These options can be used to customize the detection phase
 * --level=LEVEL       Level of tests to perform (1-5, default 1)
 * --risk=RISK         Risk of tests to perform (1-3, default 1)
 * --string=STRING     String to match when query is evaluated to True
@@ -115,8 +118,7 @@ keywords: Sqlmap,Sqlmap使用文档
 
 #### Techniques: 
   
-    These options can be used to tweak testing of specific SQL injection
-    techniques
+These options can be used to tweak testing of specific SQL injection techniques
 * --technique=TECH    SQL injection techniques to use (default "BEUSTQ")
 * --time-sec=TIMESEC  Seconds to delay the DBMS response (default 5)
 * --union-cols=UCOLS  Range of columns to test for UNION query SQL injection
@@ -130,9 +132,9 @@ keywords: Sqlmap,Sqlmap使用文档
 
 #### Enumeration:
   
-    These options can be used to enumerate the back-end database
-    management system information, structure and data contained in the
-    tables. Moreover you can run your own SQL statements
+These options can be used to enumerate the back-end database
+management system information, structure and data contained in the
+tables. Moreover you can run your own SQL statements
 * -a, --all           Retrieve everything
 * -b, --banner        Retrieve DBMS banner
 * --current-user      Retrieve DBMS current user
@@ -170,19 +172,19 @@ keywords: Sqlmap,Sqlmap使用文档
 
 #### Brute force:
   
-    These options can be used to run brute force checks
+These options can be used to run brute force checks
 * --common-tables     Check existence of common tables
 * --common-columns    Check existence of common columns
 
 #### User-defined function injection:
   
-    These options can be used to create custom user-defined functions
+These options can be used to create custom user-defined functions
 * --udf-inject        Inject custom user-defined functions
 * --shared-lib=SHLIB  Local path of the shared library
 
 #### File system access:
   
-    These options can be used to access the back-end database management
+These options can be used to access the back-end database management
     system underlying file system
 * --file-read=RFILE   Read a file from the back-end DBMS file system
 * --file-write=WFILE  Write a local file on the back-end DBMS file system
@@ -190,7 +192,7 @@ keywords: Sqlmap,Sqlmap使用文档
 
 #### Operating system access:
   
-    These options can be used to access the back-end database management
+These options can be used to access the back-end database management
     system underlying operating system
 * --os-cmd=OSCMD      Execute an operating system command
 * --os-shell          Prompt for an interactive operating system shell
@@ -203,7 +205,7 @@ keywords: Sqlmap,Sqlmap使用文档
 
 #### Windows registry access:
   
-    These options can be used to access the back-end database management
+These options can be used to access the back-end database management
     system Windows registry
 * --reg-read          Read a Windows registry key value
 * --reg-add           Write a Windows registry key value data
@@ -215,7 +217,7 @@ keywords: Sqlmap,Sqlmap使用文档
 
 #### General:
   
-    These options can be used to set some general working parameters
+These options can be used to set some general working parameters
 * -s SESSIONFILE      Load session from a stored (.sqlite) file
 * -t TRAFFICFILE      Log all HTTP traffic into a textual file
 * --batch             Never ask for user input, use the default behaviour
