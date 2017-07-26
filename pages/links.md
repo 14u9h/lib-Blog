@@ -9,4 +9,5 @@ permalink: /links/
 <ul>
 <li><a href="http://fjhack.me/">枫叶的家</a></li>
 <li><a href="http://blog.rookiehacker.org/">RookieHacker</a></li>
+<li><a href="http://xn--ubt93ddw8a610b.com/">Battlecry</a></li>
 </ul>
