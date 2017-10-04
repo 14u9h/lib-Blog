@@ -28,4 +28,4 @@ keywords: MySql,MySql数据类型
 #### 2.1、整数类型（6）
 
     一张图就能解释清楚了：
-    ![图1]({{ site.url }}/img/3058152425.png)
+![图1]({{ site.url }}/img/3058152425.png)
