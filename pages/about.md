@@ -8,5 +8,8 @@ permalink: /about/
 
 生性凶猛、喜黑，常见于夜间野外的珍稀物种。
 
+Weibo: https://weibo.com/231678119
 
-联系方式：你们总能找到的
+Twitter: https://twitter.com/iCtrL_5
+
+没啦！
