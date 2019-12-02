@@ -2,7 +2,7 @@
 <html lang="zh-CN">
  <head>
      <meta charset="utf-8" />
-  <title>关于 | 14u9h&#39;Blog</title>
+  <title>Ubuntu_Docker拉取速度优化 | 14u9h&#39;Blog</title>
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
   <link rel="stylesheet" href="https://14u9h.github.io//styles/main.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -91,15 +91,25 @@
      <div class="post-page">
       <div class="post animated fadeInDown">
        <div class="post-title">
-        <h3><a>关于</a></h3>
+        <h3><a>Ubuntu_Docker拉取速度优化</a></h3>
        </div>
        <div class="post-content">
-        <figure data-type="image" tabindex="1"><img src="https://14u9h.github.io//post-images/1575256396454.jpg" alt=""></figure>
-<blockquote>
-<p>欢迎来到小站！😉</p>
-</blockquote>
-<p>👨‍💻 网络安全从业人员</p>
-<!-- more -->
+        <h4 id="docker更换为国内镜像">docker更换为国内镜像</h4>
+<p>由于网络传输及限制原因，在国内访问Doker官方镜像慢如蜗牛，为了加快访问速度珍惜时间，将官方源配置为国内源，国内常用的有：网易、USTC、阿里云。<br>
+我们这里改为家大业大的阿里源：</p>
+<pre><code>pc@ubuntu:~$ sudo vim /etc/docker/daemon.json
+</code></pre>
+<pre><code>{
+&quot;registry-mirrors&quot;: [&quot;https://b******.mirror.aliyuncs.com&quot;]
+}
+//https://b******.mirror.aliyuncs.com	docker加速源，需要自己申请。
+我的加速地址就不放公开博客里了
+申请访问 https://www.aliyun.com 注册自己的帐号
+然后点击控制台——&gt;产品与服务——&gt;容器镜像服务。
+</code></pre>
+<pre><code>pc@ubuntu:~$ systemctl daemon-reload
+pc@ubuntu:~$ systemctl restart docker	#重启docker
+</code></pre>
 
        </div>
        <div class="post-footer">
@@ -108,6 +118,8 @@
           <i class="fa fa-sun-o"></i>
           <span class="date">2019-12-02</span>
           <i class="fa fa-tag"></i>
+          
+          <a class="tag" href="https://14u9h.github.io//tag/zAYYzrgy7" title="日常技巧">日常技巧 </a>
           
          </div>
         </div>
@@ -121,12 +133,14 @@
         <a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a>
        </div>
        <div class="twitter">
-        <a class="fa fa-twitter" href="http://twitter.com/home?status=,https://14u9h.github.io//post/about,;"></a>
+        <a class="fa fa-twitter" href="http://twitter.com/home?status=,https://14u9h.github.io//post/PL1JtKiJW,;"></a>
        </div>
       </div>
       <div class="pagination">
        <ul class="clearfix">
 
+        
+        <li class="next pagbuttons"><a class="btn" role="navigation" href="https://14u9h.github.io//post/ehjUeCg27" title=" WordPress后台拿shell">下一篇</a></li>
         
        </ul>
       </div>
