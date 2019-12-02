@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://14u9h.github.io/</id>
     <title>14u9h&apos;Blog</title>
-    <updated>2019-12-02T05:19:14.117Z</updated>
+    <updated>2019-12-02T07:11:11.636Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://14u9h.github.io/"/>
     <link rel="self" href="https://14u9h.github.io//atom.xml"/>
@@ -18,11 +18,76 @@
         <updated>2019-12-02T03:37:42.000Z</updated>
         <summary type="html"><![CDATA[<p>2019.12.02 - 博客更新<br>
 由于忍受不了Github自带Markdoen编辑器与Jekyll不兼容性，本博客迎来一次重大更新<br>
-以前博客内容会做迁移，以后或许会更新博客，但首先我需要再虚拟一套新的身份。</p>
+以前博客内容会做迁移，以后或许会继续更新博客。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>2019.12.02 - 博客更新<br>
 由于忍受不了Github自带Markdoen编辑器与Jekyll不兼容性，本博客迎来一次重大更新<br>
-以前博客内容会做迁移，以后或许会更新博客，但首先我需要再虚拟一套新的身份。</p>
+以前博客内容会做迁移，以后或许会继续更新博客。</p>
 ]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Winrar目录穿越漏洞复现-CVE-2018-20250]]></title>
+        <id>https://14u9h.github.io//post/2019-CVE-2018-20250</id>
+        <link href="https://14u9h.github.io//post/2019-CVE-2018-20250">
+        </link>
+        <updated>2019-03-07T07:03:49.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>0x01 漏洞描述</strong></p>
+<p>2019 年 2 月 20 日 @Nadav Grossman 发表了一篇关于他如何发现一个在 WinRAR 中存在 19 年的逻辑问题以至成功实现代码执行的文章。<br>
+WinRAR 代码执行相关的 CVE 编号如下：</p>
+<pre><code>CVE-2018-20250, CVE-2018-20251, CVE-2018-20252, CVE-2018-20253
+</code></pre>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>0x01 漏洞描述</strong></p>
+<p>2019 年 2 月 20 日 @Nadav Grossman 发表了一篇关于他如何发现一个在 WinRAR 中存在 19 年的逻辑问题以至成功实现代码执行的文章。<br>
+WinRAR 代码执行相关的 CVE 编号如下：</p>
+<pre><code>CVE-2018-20250, CVE-2018-20251, CVE-2018-20252, CVE-2018-20253
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DREAD威胁评级模型]]></title>
+        <id>https://14u9h.github.io//post/2018-DREAD</id>
+        <link href="https://14u9h.github.io//post/2018-DREAD">
+        </link>
+        <updated>2018-11-26T07:00:09.000Z</updated>
+        <summary type="html"><![CDATA[<p>DREAD模型是微软提出的威胁评级模型，由六个指标评定；</p>
+<ul>
+<li>潜在损失(Damage Potential) 如果缺陷被利用，损失有多大？</li>
+<li>重现性(Reproducibility) 重复产生攻击的难度有多大？</li>
+<li>可利用性(Exploitability) 发起攻击的难度有多大？</li>
+<li>受影响的用户(Affected users) 用粗略的百分数表示，有多少用户受到影响？</li>
+<li>可发现性(Discoverability) 缺陷容易发现吗？</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<p>DREAD模型是微软提出的威胁评级模型，由六个指标评定；</p>
+<ul>
+<li>潜在损失(Damage Potential) 如果缺陷被利用，损失有多大？</li>
+<li>重现性(Reproducibility) 重复产生攻击的难度有多大？</li>
+<li>可利用性(Exploitability) 发起攻击的难度有多大？</li>
+<li>受影响的用户(Affected users) 用粗略的百分数表示，有多少用户受到影响？</li>
+<li>可发现性(Discoverability) 缺陷容易发现吗？</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sqlmap使用文档]]></title>
+        <id>https://14u9h.github.io//post/2017-sqlmap-usage</id>
+        <link href="https://14u9h.github.io//post/2017-sqlmap-usage">
+        </link>
+        <updated>2017-06-30T06:58:29.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[服务器解析漏洞汇总]]></title>
+        <id>https://14u9h.github.io//post/2017-Server-resolve-vulnerability</id>
+        <link href="https://14u9h.github.io//post/2017-Server-resolve-vulnerability">
+        </link>
+        <updated>2017-06-06T06:55:16.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[社会工程学文章]]></title>
+        <id>https://14u9h.github.io//post/2015_Social_Engineering</id>
+        <link href="https://14u9h.github.io//post/2015_Social_Engineering">
+        </link>
+        <updated>2015-09-08T16:00:00.000Z</updated>
     </entry>
 </feed>
